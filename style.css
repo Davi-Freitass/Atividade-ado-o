@@ -1,0 +1,107 @@
+.titulo {
+    font-size: 56px;
+    text-align: center;
+    color: antiquewhite;
+    -webkit-text-stroke: 1px rgb(70, 97, 138);
+    margin: 8px;
+    font-family: times;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    align-items: center;
+    
+}
+
+.navbar {
+    height: 80px;
+    position: sticky;
+    background-color: rgb(135, 204, 231);
+    border: solid antiquewhite 4px;
+}
+
+.exposicao {
+    background-color: antiquewhite;
+    width: 92vw;
+    height: 600px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+}
+
+body {
+    background-image: url(assets/fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.cachorro1 {
+    background-color: rgba(135, 204, 231, 0.6);
+    width: 400px;
+    height: 560px;
+    padding: 10px;
+    border-radius: 20px 0 0 20px;
+    border: 2px solid white;
+}
+
+.cachorro2 {
+    background-color: rgba(135, 204, 231, 0.6);
+    width: 400px;
+    height: 560px;
+    padding: 10px;
+    border: 2px solid white;
+}
+
+.cachorro3 {
+    background-color: rgba(135, 204, 231, 0.6);
+    width: 400px;
+    height: 560px;
+    padding: 10px;
+    border: 2px solid white;
+    
+}
+
+.cachorro4 {
+    background-color: rgba(135, 204, 231, 0.6);
+    width: 400px;
+    height: 560px;
+    padding: 10px;
+    border-radius: 0px 20px 20px 0px;
+    border: 2px solid white;
+}
+
+.dogs{
+    margin: 20px;
+}
+
+.botao {
+    margin: 50px;
+    height: 50px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover, .botao:hover{
+    background-color: rgba(49, 48, 102, 0.555);
+}
+
+.fundo_cadastro {
+    background-color: antiquewhite;
+    width: 50vw;
+    height: 800px;
+    margin: 80px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 25px;
+}
