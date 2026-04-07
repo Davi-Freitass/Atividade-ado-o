@@ -32,6 +32,7 @@ document.getElementById("formAdocao").addEventListener("submit", function (e) {
     let decisao = document.getElementById("decisao")?.value;
 
     let espaco = document.getElementById("espaco")?.value;
+    
 
     if (nome.length < 3) return alert("Nome muito curto");
     if (!email.includes("@")) return alert("Email inválido");
