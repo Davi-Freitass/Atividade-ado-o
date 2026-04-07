@@ -97,11 +97,11 @@ a:hover, .botao:hover{
 
 .fundo_cadastro {
     background-color: antiquewhite;
-    width: 50vw;
-    height: 800px;
+    width: 30vw;
+    height: 700px;
     margin: 80px auto;
-    display: flex;
     align-items: center;
     justify-content: space-around;
     border-radius: 25px;
+    text-align: center;
 }
